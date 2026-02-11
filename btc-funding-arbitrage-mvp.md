@@ -54,7 +54,7 @@ Simplified 3-layer approach for MVP:
 
 ## Implementation Components
 
-### 1. Data Collection (Week 1)
+### 1. Data Collection
 **Goal**: Understand funding rate patterns before trading
 
 - Script to fetch historical funding rates (past 3-6 months)
@@ -67,7 +67,7 @@ Simplified 3-layer approach for MVP:
 - `funding_analysis.ipynb`: Jupyter notebook with visualizations
 - `config.json`: Exchange credentials, API endpoints
 
-### 2. Monitoring Dashboard (Week 2)
+### 2. Monitoring Dashboard
 **Goal**: Real-time visibility before automation
 
 - Live funding rate display for BTC perpetuals
@@ -80,7 +80,7 @@ Simplified 3-layer approach for MVP:
 - Simple web UI or terminal dashboard
 - Alert system (Telegram/email) for threshold crossings
 
-### 3. Manual Execution Tools (Week 3)
+### 3. Manual Execution Tools
 **Goal**: Assisted trading with safety checks
 
 - CLI tool to execute paired trades
@@ -93,7 +93,7 @@ Simplified 3-layer approach for MVP:
 - `risk_checker.py`: Validation rules
 - Trade log database (SQLite)
 
-### 4. Basic Automation (Week 4)
+### 4. Basic Automation
 **Goal**: Automated entry/exit at thresholds
 
 - Automatic position opening when funding rate crosses threshold
@@ -169,25 +169,25 @@ Simplified 3-layer approach for MVP:
 
 ## Development Roadmap
 
-### Phase 1: Research (2 weeks)
+### Phase 1: Research
 - Historical data analysis
 - Funding rate pattern identification
 - Exchange API testing
 - Paper trading simulation
 
-### Phase 2: Semi-Manual (2 weeks)
+### Phase 2: Semi-Manual
 - Monitoring tools
 - Assisted execution
 - Manual position management
 - Performance tracking
 
-### Phase 3: Automated MVP (2 weeks)
+### Phase 3: Automated MVP
 - Threshold-based automation
 - Risk management integration
 - 24/7 monitoring
 - Alerting system
 
-### Phase 4: Refinement (ongoing)
+### Phase 4: Refinement
 - Strategy parameter optimization
 - Transaction cost analysis
 - Multi-timeframe analysis
@@ -217,9 +217,9 @@ Simplified 3-layer approach for MVP:
 
 1. **Exchange account setup**: Open accounts, complete KYC, fund with test capital ($1k-5k)
 2. **API key generation**: Create keys with trade + read permissions
-3. **Data collection**: Run funding rate scraper for 1-2 weeks
+3. **Data collection**: Run funding rate scraper to gather sufficient historical data
 4. **Paper trading**: Simulate strategy on historical data
-5. **Live testing**: Start with minimal capital ($500) for 1 week
+5. **Live testing**: Start with minimal capital ($500) to validate strategy
 6. **Scale gradually**: Increase position size as confidence grows
 
 ## Open Questions
